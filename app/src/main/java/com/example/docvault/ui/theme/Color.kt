@@ -8,22 +8,24 @@ import androidx.compose.ui.graphics.Color
  */
 
 // --- Dark Mode (Deep Indigo & Neon Accents) ---
-val DarkBg = Color(0xFF000000)      // Very deep navy/black
-val DarkSurf = Color(0xFF243B48)    // Lighter indigo for surfaces
-val DarkPrim = Color(0xFFEE2E6D)    // Vibrant electric purple
-val DarkSec = Color(0xFF00F2FE)     // Cyan accent
-val DarkOnSurf = Color(0xFFE0E0E0)
-val DarkAccent = Color(0xFFFF2D55)  // Vibrant pink for highlights
+// --- Dark Mode (Deep Navy & Slate) ---
+val DarkBg = Color(0xFF0B1220)      // Deep navy background
+val DarkSurf = Color(0xFF172235)    // Slate-blue surface
+val DarkPrim = Color(0xFF3B82F6)    // Professional blue primary
+val DarkSec = Color(0xFF60A5FA)     // Soft blue secondary
+val DarkOnSurf = Color(0xFFE5E7EB)  // Neutral light text
+val DarkAccent = Color(0xFF93C5FD)  // Subtle blue highlight
 
-// --- Light Mode (Azure & Deep Navy) ---
-val LightBg = Color(0xFFF0F4FF)     // Soft cool white/blue
-val LightSurf = Color(0xFFFFFFFF)   // Pure white
-val LightPrim = Color(0xFF536DFE)   // Clean azure blue
-val LightSec = Color(0xFF1A237E)    // Deep navy for text/secondary
-val LightOnSurf = Color(0xFF2C3E50)
-val LightAccent = Color(0xFFFF4081) // Soft pink
+// --- Light Mode (Clean Blue & Navy) ---
+val LightBg = Color(0xFFF5F7FA)     // Soft neutral background
+val LightSurf = Color(0xFFFFFFFF)   // Clean white surface
+val LightPrim = Color(0xFF2563EB)   // Trustworthy medium blue
+val LightSec = Color(0xFF1E3A5F)    // Deep navy secondary
+val LightOnSurf = Color(0xFF1F2937)  // Strong neutral text
+val LightAccent = Color(0xFF3BDAF6) // Consistent blue highlight
 
 // Universal Status Colors
-val Success = Color(0xFF00C853)
-val Warning = Color(0xFFFFAB00)
-val Error = Color(0xFFFF5252)
+val Success = Color(0xFF16A34A)     // Clear, confident green
+val Warning = Color(0xFFD97706)     // Warm amber
+val Error = Color(0xFFDC2626)       // Clear professional red
+
